@@ -18,7 +18,7 @@ const Navbar = () => {
                     <ul>
                         <Link to={"/"}><li className="categorie animated-underline p-1"><a href="#hero">STARTSEITE</a></li></Link>
                         <Link to={"/tools"}><li className="categorie animated-underline p-1"><a href="">TOOLS</a></li></Link>
-                        <Link to={"/blogs"}><li className="categorie animated-underline p-1"><a href="">KNOWLEDGE BASE</a></li></Link>
+                        {/* <Link to={"/blogs"}><li className="categorie animated-underline p-1"><a href="">KNOWLEDGE BASE</a></li></Link> */}
                         <Link to={"/kontakt"}><li><a href="./contact.html" className="beratung-btn categorie">KOSTENLOSE BERATUNG</a></li></Link>
                     </ul>
                 </nav>

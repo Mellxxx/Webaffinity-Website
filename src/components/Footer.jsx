@@ -10,6 +10,7 @@ const Footer = () => {
                     <ul className="flex flex-col gap-1">
                         <li>Maltheserstraße 3</li>
                         <li>9556 Liebenfels</li>
+                        <li>Österreich, Kärnten</li>
                     </ul>
                 </div>
                 <div >

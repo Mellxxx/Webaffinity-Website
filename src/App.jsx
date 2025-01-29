@@ -13,6 +13,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { initGA, logPageView } from './utils/analytics';
 import Blogs from "./pages/Blogs"
 import Tools from "./pages/Tools"
+import BlogTemplate from "./pages/Template.jsx"
 
 function App() {
   const location = useLocation();
@@ -54,6 +55,7 @@ function App() {
           <Route path="/tools" element={<Tools />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Datenschutzerkl />} />
+          <Route path="/blogs/template" element={<BlogTemplate />} />
         </Routes>
       </div>
       <Footer />
